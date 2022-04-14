@@ -2,8 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   font-size: 2em;
-  background-color: #f5f2f0;
-  font-family: 'Denk One', sans-serif;
+  background-color: ;
 }
 
 *, *::before, *::after {
@@ -14,16 +13,38 @@ body {
   margin: 1.5rem;
 }
 
-h1, h2 {
-  color:#623b0c;
-  font-family: Denk One;
+
+h1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background:#960062 ;
 }
 
-p, a {
-  font-family: Georgia;
+nav {
+  color:#eccee2;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  text size: 1.125rem;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
 }
 
-ol {
+li, a, h3 {
+  font-family: "PT Sans Narrow";
+}
+
+p {
+  font-family: "Georgia";
+  font-size: 0.875rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+.main, ul {
   padding: 0;
   list-style-type: none;
   display: grid;
@@ -31,26 +52,23 @@ ol {
   grid-gap: 1rem;
 }
 
- .main ol li {
+ul li {
   padding: 1rem;
   line-height: 1.5;
   border-width: 2px;
   border-style: solid;
-  border-color:#623b0c;
+  border-color:#987ffa;
   border-radius: 8px;
-  background-color: #ede3db;
+  background-color: ;
+}
+
+div:nth-child(1) {
+  grid-column: 2;
+  grid-row: 1;
 }
 
 ol li h2 {
   margin-top: 0;
 }
 
-ol li a {
-  border-width: 2px;
-  border-style: solid;
-  border-color:#623b0c;
-  border-radius: 8px;
-  background-color: #623b0c;
-  text-decoration: none;
-  color: #fff;
 }
